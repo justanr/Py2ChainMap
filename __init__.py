@@ -4,7 +4,7 @@ See http://hg.python.org/cpython/file/default/Lib/collections/__init__.py#l756
     for original source code. Everything here is lifted directly from there.
 """
 
-from _abcoll import MutableMapping
+from collections import MutableMapping
 
 class ChainMap(MutableMapping):
     """A ChainMap groups multiple dicts (or other mappings) together
